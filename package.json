@@ -1,0 +1,22 @@
+{
+  "name": "soyaka-id",
+  "version": "1.0.2",
+  "main": "dist/index.js",
+  "module": "src/index.mjs",
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "author": "Soyaka",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.23.6",
+    "@babel/preset-env": "^7.23.6"
+  },
+  "dependencies": {
+    "soyaka-id": "^1.0.1"
+  }
+}

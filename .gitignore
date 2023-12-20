@@ -1,0 +1,15 @@
+# Node.js
+node_modules/
+
+# Build files
+/dist/
+
+
+# Babel
+/.babelrc
+
+# macOS
+.DS_Store
+
+# Visual Studio Code
+.vscode/
